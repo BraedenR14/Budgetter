@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD54189D1B75B40500990A3A /* BMRBudgetSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54189C1B75B40500990A3A /* BMRBudgetSection.m */; };
+		DD5418A01B75B5C600990A3A /* BMRBudgetSectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54189F1B75B5C600990A3A /* BMRBudgetSectionTableViewController.m */; };
+		DD5418A31B75B76900990A3A /* BMRBudgetSectionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5418A21B75B76900990A3A /* BMRBudgetSectionStore.m */; };
 		DD7BA8C91B72B8AC006F6944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7BA8C81B72B8AC006F6944 /* main.m */; };
 		DD7BA8CC1B72B8AC006F6944 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7BA8CB1B72B8AC006F6944 /* AppDelegate.m */; };
 		DD7BA8CE1B72B8AC006F6944 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7BA8CD1B72B8AC006F6944 /* Images.xcassets */; };
@@ -25,6 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD54189B1B75B40500990A3A /* BMRBudgetSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRBudgetSection.h; sourceTree = "<group>"; };
+		DD54189C1B75B40500990A3A /* BMRBudgetSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMRBudgetSection.m; sourceTree = "<group>"; };
+		DD54189E1B75B5C600990A3A /* BMRBudgetSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRBudgetSectionTableViewController.h; sourceTree = "<group>"; };
+		DD54189F1B75B5C600990A3A /* BMRBudgetSectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMRBudgetSectionTableViewController.m; sourceTree = "<group>"; };
+		DD5418A11B75B76900990A3A /* BMRBudgetSectionStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRBudgetSectionStore.h; sourceTree = "<group>"; };
+		DD5418A21B75B76900990A3A /* BMRBudgetSectionStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMRBudgetSectionStore.m; sourceTree = "<group>"; };
 		DD7BA8C31B72B8AC006F6944 /* Budgetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budgetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7BA8C71B72B8AC006F6944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD7BA8C81B72B8AC006F6944 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +90,12 @@
 				DD7BA8CD1B72B8AC006F6944 /* Images.xcassets */,
 				DD7BA8CF1B72B8AC006F6944 /* LaunchScreen.xib */,
 				DD7BA8C61B72B8AC006F6944 /* Supporting Files */,
+				DD54189B1B75B40500990A3A /* BMRBudgetSection.h */,
+				DD54189C1B75B40500990A3A /* BMRBudgetSection.m */,
+				DD54189E1B75B5C600990A3A /* BMRBudgetSectionTableViewController.h */,
+				DD54189F1B75B5C600990A3A /* BMRBudgetSectionTableViewController.m */,
+				DD5418A11B75B76900990A3A /* BMRBudgetSectionStore.h */,
+				DD5418A21B75B76900990A3A /* BMRBudgetSectionStore.m */,
 			);
 			path = Budgetter;
 			sourceTree = "<group>";
@@ -210,6 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5418A31B75B76900990A3A /* BMRBudgetSectionStore.m in Sources */,
+				DD5418A01B75B5C600990A3A /* BMRBudgetSectionTableViewController.m in Sources */,
+				DD54189D1B75B40500990A3A /* BMRBudgetSection.m in Sources */,
 				DD7BA8CC1B72B8AC006F6944 /* AppDelegate.m in Sources */,
 				DD7BA8C91B72B8AC006F6944 /* main.m in Sources */,
 			);
@@ -398,6 +416,7 @@
 				DD7BA8E21B72B8AC006F6944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD7BA8E31B72B8AC006F6944 /* Build configuration list for PBXNativeTarget "BudgetterTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +425,7 @@
 				DD7BA8E51B72B8AC006F6944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
